@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import HomePage from './homePage';
 
-import { HashRouter as Router } from 'react-router-dom';
+import {HashRouter as Router} from 'react-router-dom';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HomePage />
   </React.StrictMode>,
   document.getElementById('root')
 );
