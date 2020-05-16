@@ -3,7 +3,7 @@ import MemeGenerator from "../MemeGenerator";
 import Header from "./Header";
 import "./App.css";
 
-class App extends Component {
+ export default class App extends Component {
     
 constructor(){
     super()	      
