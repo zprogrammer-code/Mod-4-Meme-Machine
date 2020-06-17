@@ -13,7 +13,7 @@ class homePage extends Component{
             <HashRouter basename={process.env.PUBLIC_URL}>
               <div className="App">
               <Switch>
-                <Route exact path="./App" component={App} />
+                <Route exact path="/" component={App} />
               </Switch>
               </div>
             </HashRouter>
